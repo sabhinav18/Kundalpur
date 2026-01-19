@@ -75,15 +75,12 @@
 
 
 import { useState } from "react";
+import k1 from "../assets/K1.png";
+import k2 from "../assets/K2.png";
+import k3 from "../assets/K3.png";
+import k4 from "../assets/K4.jpg";
 
-const images = [
-  "./src/assets/K1.png",
-  "./src/assets/K2.png",
-  "./src/assets/K3.png",
-  "./src/assets/K4.jpg",
-  "./src/assets/K2.png",
-  "./src/assets/K3.png",
-];
+const images = [k1, k2, k3, k4, k2, k3];
 
 export default function Gallery() {
   const [openIndex, setOpenIndex] = useState(null);
@@ -103,7 +100,7 @@ export default function Gallery() {
       <div className="mt-6 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
         {images.map((src, i) => (
           <button
-            key={src}
+            key={i}
             className="group relative aspect-[4/3] overflow-hidden rounded-xl bg-slate-100 shadow-sm hover:shadow-md transition"
             onClick={() => setOpenIndex(i)}
             aria-label={`Open image ${i + 1}`}
