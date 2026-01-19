@@ -163,7 +163,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-6">त्वरित लिंक्स</h4>
             <ul className="space-y-3 text-sm text-gray-400">
-              <li><a href="#home" className="hover:text-temple-orange transition-colors">घर</a></li>
+              <li><a href="#home" className="hover:text-temple-orange transition-colors">श्री बड़े बाबा</a></li>
               <li><a href="#about" className="hover:text-temple-orange transition-colors">आपके बारे में</a></li>
               <li><a href="#schemes" className="hover:text-temple-orange transition-colors">सेवाएँ और योजनाएँ</a></li>
               <li><a href="#facilities" className="hover:text-temple-orange transition-colors">उपकरण और सुविधाएँ</a></li>

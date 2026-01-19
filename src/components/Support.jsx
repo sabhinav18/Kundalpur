@@ -155,7 +155,7 @@ const Support = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Phone</h4>
-                  <p className="text-gray-600">+91 98765 43210</p>
+                  <p className="text-gray-600">+91 7771834880</p>
                 </div>
               </div>
 
@@ -165,7 +165,7 @@ const Support = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Email</h4>
-                  <p className="text-gray-600">info@badebabatemple.org</p>
+                  <p className="text-gray-600">badebaba.kundalpur@gmail.com</p>
                 </div>
               </div>
             </div>
