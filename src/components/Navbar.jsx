@@ -25,7 +25,9 @@ const Navbar = () => {
     { name: 'श्री बड़े बाबा', href: '#home' },
     { name: 'परिचय', href: '#about' },
     { name: 'योजनाओं', href: '#schemes' },
+    { name: 'दान', href: '#donation' },
     { name: 'अन्य सुविधाएं', href: '#facilities' },
+    { name: 'आवास', href: '#room-booking' },
     { name: 'फोटो गैलरी', href: '#gallery' },
     { name: 'सहायता', href: '#support' },
   ];
@@ -66,9 +68,9 @@ const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-              <button className="bg-temple-orange hover:bg-temple-red text-white px-4 py-2 rounded-full text-sm font-medium transition-colors">
+              <a href="#donation" className="bg-temple-orange hover:bg-temple-red text-white px-4 py-2 rounded-full text-sm font-medium transition-colors">
                 दान करें
-              </button>
+              </a>
             </div>
           </div>
 
@@ -97,9 +99,13 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <button className="w-full text-left bg-temple-orange text-white px-3 py-2 rounded-md text-base font-medium mt-2">
-              Donate Now
-            </button>
+            <a 
+              href="#donation" 
+              className="block w-full text-left bg-temple-orange text-white px-3 py-2 rounded-md text-base font-medium mt-2"
+              onClick={() => setIsOpen(false)}
+            >
+              दान करें
+            </a>
           </div>
         </div>
       )}

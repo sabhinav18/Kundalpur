@@ -79,7 +79,7 @@ export default function Schemes() {
       <div className="container">
         <div className="flex items-end justify-between">
           <h2 className="heading">योजनाओं</h2>
-          <a href="#donate" className="text-sm font-semibold text-rose-700">
+          <a href="#donation" className="text-sm font-semibold text-rose-700">
             योगदान देना
           </a>
         </div>
@@ -90,7 +90,7 @@ export default function Schemes() {
                 {card.title}
               </div>
               <div className="mt-2 text-sm text-slate-700">{card.desc}</div>
-              <a href="#donate" className="mt-4 btn-primary">
+              <a href="#donation" className="mt-4 btn-primary">
                 Donate
               </a>
             </div>

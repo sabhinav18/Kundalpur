@@ -8,6 +8,8 @@ import Facilities from "./components/Facilities.jsx";
 import Support from "./components/Support.jsx";
 import Visit from "./components/Visit.jsx";
 import Contact from "./components/Contact.jsx";
+import RoomBooking from "./components/RoomBooking.jsx";
+import Donation from "./components/Donation.jsx";
 
 export default function App() {
   return (
@@ -18,7 +20,9 @@ export default function App() {
         <Hero />
         <About />
         <Schemes />
+        <Donation />
         <Facilities />
+        <RoomBooking />
         <Gallery />
         <Support />
         {/* <Visit /> */}
