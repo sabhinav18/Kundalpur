@@ -59,29 +59,53 @@
 
 export default function Schemes() {
   const items = [
+    // {
+    //   title: "BHOJANSHALA",
+    //   desc: "Daily satvik meals for saints, devotees and visiting pilgrims.",
+    // },
+    // {
+    //   title: "TYAGIVRATI BHOJANSHALA",
+    //   desc: "Dedicated bhojanshala for tyagivrat saints observing austerity and vows.",
+    // },
+    // {
+    //   title: "UDASIN AASHRAM",
+    //   desc: "Seva, stay and facilities for Udasin sadhus and seekers.",
+    // },
+    // {
+    //   title: "GAUSHALA",
+    //   desc: "Protection, shelter and nurturing care for gaumata (cows and calves).",
+    // },
+    // {
+    //   title: "AUSHDHALAY",
+    //   desc: "Distribution of medicines and basic healthcare support for the needy.",
+    // },
+    // {
+    //   title: "VIDYAGAM KAKSH",
+    //   desc: "Classroom space for spiritual, moral and cultural education.",
+    // },
     {
-      title: "BHOJANSHALA",
-      desc: "",
+      title: "भोजशाला (BHOJANSHALA)",
+      desc: "यह योजना श्रद्धालुओं एवं जरूरतमंदों को स्वच्छ, पौष्टिक और सुस्वादु भोजन उपलब्ध कराने हेतु संचालित की जाती है।",
     },
     {
-      title: "TYAGIVRATI BHOJANSHALA",
-      desc: "",
+      title: "त्यागीव्रती भोजनशाला (TYAGIVRATI BHOJANSHALA)",
+      desc: "यह भोजनशाला त्यागी, संन्यासी एवं व्रतधारी साधकों के लिए विशेष रूप से सात्विक एवं नियमपूर्वक तैयार भोजन प्रदान करती है।",
     },
     {
-      title: "UDASIN AASHRAM",
-      desc: "",
+      title: "उदासीन आश्रम (UDASIN AASHRAM)",
+      desc: "यह आश्रम साधु-संतों एवं आध्यात्मिक साधकों के निवास, साधना एवं सत्संग हेतु शांत एवं पवित्र वातावरण उपलब्ध कराता है।",
     },
     {
-      title: "GAUSHALA",
-      desc: "",
+      title: "गौशाला (GAUSHALA)",
+      desc: "गौशाला में गौमाता की सेवा, संरक्षण एवं पालन-पोषण किया जाता है, साथ ही गौवंश के संवर्धन और देखभाल का विशेष ध्यान रखा जाता है।",
     },
     {
-      title: "AUSHDHALAY",
-      desc: "",
+      title: "औषधालय (AUSHDHALAY)",
+      desc: "औषधालय में जरूरतमंदों को प्राथमिक उपचार एवं आवश्यक दवाइयाँ उपलब्ध कराई जाती हैं, जिससे जनस्वास्थ्य की सेवा हो सके।",
     },
     {
-      title: "VIDYAGAM KAKSH",
-      desc: "",
+      title: "विद्यागम कक्ष (VIDYAGAM KAKSH)",
+      desc: "विद्यागम कक्ष विद्यार्थियों के अध्ययन, ज्ञान-वृद्धि एवं शैक्षणिक गतिविधियों के संचालन हेतु समर्पित है।",
     },
   ];
 
@@ -112,3 +136,29 @@ export default function Schemes() {
     </section>
   );
 }
+
+
+  // {
+  //     title: "भोजशाला (BHOJANSHALA)",
+  //     desc: "यह योजना श्रद्धालुओं एवं जरूरतमंदों को स्वच्छ, पौष्टिक और सुस्वादु भोजन उपलब्ध कराने हेतु संचालित की जाती है।",
+  //   },
+  //   {
+  //     title: "त्यागीव्रती भोजनशाला (TYAGIVRATI BHOJANSHALA)",
+  //     desc: "यह भोजनशाला त्यागी, संन्यासी एवं व्रतधारी साधकों के लिए विशेष रूप से सात्विक एवं नियमपूर्वक तैयार भोजन प्रदान करती है।",
+  //   },
+  //   {
+  //     title: "उदासीन आश्रम (UDASIN AASHRAM)",
+  //     desc: "यह आश्रम साधु-संतों एवं आध्यात्मिक साधकों के निवास, साधना एवं सत्संग हेतु शांत एवं पवित्र वातावरण उपलब्ध कराता है।",
+  //   },
+  //   {
+  //     title: "गौशाला (GAUSHALA)",
+  //     desc: "गौशाला में गौमाता की सेवा, संरक्षण एवं पालन-पोषण किया जाता है, साथ ही गौवंश के संवर्धन और देखभाल का विशेष ध्यान रखा जाता है।",
+  //   },
+  //   {
+  //     title: "औषधालय (AUSHDHALAY)",
+  //     desc: "औषधालय में जरूरतमंदों को प्राथमिक उपचार एवं आवश्यक दवाइयाँ उपलब्ध कराई जाती हैं, जिससे जनस्वास्थ्य की सेवा हो सके।",
+  //   },
+  //   {
+  //     title: "विद्यागम कक्ष (VIDYAGAM KAKSH)",
+  //     desc: "विद्यागम कक्ष विद्यार्थियों के अध्ययन, ज्ञान-वृद्धि एवं शैक्षणिक गतिविधियों के संचालन हेतु समर्पित है।",
+  //   },
