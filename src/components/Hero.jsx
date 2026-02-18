@@ -1,6 +1,6 @@
 import React from 'react';
 import { ChevronDown } from 'lucide-react';
-import templeBg from '../assets/K0.jpg';
+import templeBg from '../assets/badebaba.jpg';
 
 const Hero = () => {
   return (

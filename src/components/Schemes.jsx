@@ -60,16 +60,28 @@
 export default function Schemes() {
   const items = [
     {
-      title: "अन्नदान (भोजन सेवा)",
-      desc: "आगंतुकों और जरूरतमंदों के लिए दैनिक प्रसाद और सामुदायिक भोजन में सहयोग करें।",
+      title: "BHOJANSHALA",
+      desc: "",
     },
     {
-      title: "शैक्षिक सहायता",
-      desc: "छात्रवृत्तियाँ, अध्ययन सामग्री और आध्यात्मिक साहित्य प्रायोजित करना।",
+      title: "TYAGIVRATI BHOJANSHALA",
+      desc: "",
     },
     {
-      title: "स्वास्थ्य सेवा सहायता",
-      desc: "चिकित्सा शिविरों, स्वास्थ्य जांचों और आवश्यक सेवाओं के लिए धन उपलब्ध कराएं।",
+      title: "UDASIN AASHRAM",
+      desc: "",
+    },
+    {
+      title: "GAUSHALA",
+      desc: "",
+    },
+    {
+      title: "AUSHDHALAY",
+      desc: "",
+    },
+    {
+      title: "VIDYAGAM KAKSH",
+      desc: "",
     },
   ];
 

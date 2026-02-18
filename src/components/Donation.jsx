@@ -5,11 +5,11 @@ const Donation = () => {
   const [copied, setCopied] = React.useState(false);
 
   const bankDetails = {
-    accountName: "Shri Digambar Jain Siddha Kshetra Kundalpur",
-    bankName: "State Bank of India",
-    accountNumber: "12345678901",
-    ifscCode: "SBIN0001234",
-    branch: "Damoh Main Branch"
+    accountName: "SHRI DIGAMBER JAIN SIDDHA KSHETRA KUNDALPUR",
+    bankName: "HDFC",
+    accountNumber: "50100160424129",
+    ifscCode: "HDFC0000914",
+    branch: "HDFC DAMOH"
   };
 
   const copyToClipboard = () => {

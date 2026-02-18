@@ -1,4 +1,4 @@
-// import { useState } from "react";
+ // import { useState } from "react";
 
 // const images = [
 //   "./src/assets/K1.png",
@@ -87,7 +87,7 @@ export default function Gallery() {
 
   return (
     <section id="gallery" className="section">
-      <div className="container">
+      <div className="container"> 
       <div className="flex items-end justify-between">
         <h2 className="heading">कुण्डलपुर गैलरी</h2>
         <a
