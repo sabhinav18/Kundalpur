@@ -145,7 +145,7 @@ const Support = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Address</h4>
-                  <p className="text-gray-600">Shri Bade Baba Temple Complex,  <br/>Kundalpur, Madhya Pradesh 4707723</p>
+                  <p className="text-gray-600">SHRI DIGAMBER JAIN SIDDHA KSHETRA KUNDALGIRI, KUNDALPUR, TEH-PATERA, DISST-DAMOH 470772 (M.P.)  <br/></p>
                 </div>
               </div>
               
@@ -155,7 +155,7 @@ const Support = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Phone</h4>
-                  <p className="text-gray-600">+91 7771834880</p>
+                  <p className="text-gray-600">+91  7771835891</p>
                 </div>
               </div>
 

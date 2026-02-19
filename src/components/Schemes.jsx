@@ -126,7 +126,7 @@ export default function Schemes() {
                 {card.title}
               </div>
               <div className="mt-2 text-sm text-slate-700">{card.desc}</div>
-              <a href="#donation" className="mt-4 btn-primary">
+              <a href="https://shreebadebaba.techjainsupport.co.in/phonelogin" className="mt-4 btn-primary">
                 Donate
               </a>
             </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Heart, Copy, CheckCircle } from 'lucide-react';
+import QR from '../assets/QR_kundalpur.jpeg';
 
 const Donation = () => {
   const [copied, setCopied] = React.useState(false);
@@ -86,8 +87,19 @@ const Donation = () => {
             
             <div className="bg-white p-8 rounded-2xl shadow-lg text-center">
               <div className="w-48 h-48 bg-gray-200 mx-auto mb-4 flex items-center justify-center rounded-lg">
-                <span className="text-gray-500">QR Code Placeholder</span>
+                <img
+                  src={QR}
+                  alt="UPI QR Code"
+                />
+                
               </div>
+              {/* <div className="w-48 h-48 mx-auto mb-4">
+                <img
+                  src={QR}
+                  alt="UPI QR Code"
+                  className="w-full h-full object-contain rounded-xl border border-gray-200 shadow-md"
+                /> */}
+              {/* </div> */}
               <p className="font-semibold text-gray-900">UPI द्वारा दान करें</p>
               <p className="text-sm text-gray-500">Google Pay / PhonePe / Paytm</p>
             </div>

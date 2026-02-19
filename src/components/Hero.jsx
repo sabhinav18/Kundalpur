@@ -1,6 +1,6 @@
 import React from 'react';
 import { ChevronDown } from 'lucide-react';
-import templeBg from '../assets/badebaba.jpg';
+import templeBg from '../assets/badebaba.jpeg';
 
 const Hero = () => {
   return (
@@ -21,7 +21,7 @@ const Hero = () => {
           {/* Welcome to */}
         </h2>
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-temple-gold mb-6 drop-shadow-lg animate-fade-in-up delay-100">
-          श्री बड़े बाबा मंदिर
+          श्री बड़े बाबा मंदिर, कुण्डलपुर
         </h1>
         <p className="max-w-2xl text-lg md:text-xl text-gray-200 mb-8 animate-fade-in-up delay-200">
           {/* A spiritual sanctuary of peace, devotion, and heritage. Experience the divine presence and find your inner calm. */}

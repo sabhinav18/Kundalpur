@@ -68,10 +68,10 @@ const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-              <a href="#room-booking" className="bg-temple-orange hover:bg-temple-red text-white px-4 py-2 rounded-full text-sm font-medium transition-colors">
+              <a href="https://shreebadebaba.techjainsupport.co.in/roombooking" className="bg-temple-orange hover:bg-temple-red text-white px-4 py-2 rounded-full text-sm font-medium transition-colors">
                 आवास
               </a>
-              <a href="#donation" className="bg-temple-orange hover:bg-temple-red text-white px-4 py-2 rounded-full text-sm font-medium transition-colors">
+              <a href="https://shreebadebaba.techjainsupport.co.in/phonelogin" className="bg-temple-orange hover:bg-temple-red text-white px-4 py-2 rounded-full text-sm font-medium transition-colors">
                 दान करें
               </a>
             </div>
